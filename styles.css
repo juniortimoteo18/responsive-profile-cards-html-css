@@ -38,6 +38,25 @@
 	color: grey;
 }
 
+.social-media a i {
+	color: grey;
+	font-size: large;
+	transition: 0.5s;
+	padding: 10px 0;
+}
+
+.social-media a i:hover {
+	transition: 0.5s;
+	transform: scale(2);
+}
+
+.social-media {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+
 h1 {
 	margin: 20px 0;
 }
